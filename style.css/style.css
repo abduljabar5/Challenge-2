@@ -1,12 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
-
+    
+    
 }
-
+:root{
+    --color:rgb(115, 181, 225)
+}
 header{
     padding: 7px;
-    background-color: rgb(19, 22, 30);
+    background-color: rgb(0, 27, 47);
 }
 .menu{
     
@@ -25,14 +28,14 @@ header{
 .head nav ul li {
     display: inline-block;
     margin-left: 30px;
-    text-decoration: underline aquamarine;
-    color: aquamarine;
-   
+    text-decoration: underline rgb(2, 69, 150);
+    color: rgb(2, 69, 150);
+    font-family: sans-serif;
     flex-wrap: wrap;
 }
 span{
     padding: 1px;
-    background-color: aquamarine;
+    background-color: var(--color);
     padding-left: 40px;
     font-family:sans-serif;
     margin-left: -7px;
@@ -55,6 +58,252 @@ span{
     right: 100px;
     color: rgb(0, 0, 0);
     padding: 10px;
-    background-color: aquamarine;
+    background-color: var(--color);
     font-size: 200%;
 }
+.background{
+    padding: 1000px;
+    padding-bottom: 790px;
+    padding-right: 440px;
+   top: -3px;
+   z-index: -20;
+    position: absolute;
+    background-color: rgb(178, 175, 175);
+}
+.box2{
+    padding: 20px;
+    background-color: rgb(178, 175, 175);
+    position: relative;
+}
+.about{
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-left: 200px;
+    margin-bottom: 60px;
+    color:rgb(30, 39, 51) ;
+    
+}
+
+.p{
+    position: absolute;
+    padding: 20px;
+    width: 800px;
+    background-color: rgb(178, 175, 175);
+    right: 0px;
+    top: 0px;
+}
+.me{
+    background-color: rgb(178, 175, 175);
+    color: rgb(178, 175, 175);
+}
+
+
+.vline{
+    padding: 20px;
+    width: 46px;
+    height: 220px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: absolute;
+    top: 15px;
+    left: 415px;
+    box-sizing: border-box;
+    
+
+}
+
+
+.firstbox{
+    background-color: rgb(12, 4, 50);
+    position: relative;
+    float: right;
+    padding: 4px;
+    background-color: rgb(115, 181, 225);
+    
+    
+}
+.firstbox img{
+    width: 946px;
+    height: 498px;
+    transition: 1s;
+    opacity: .5;
+}
+.firstbox img:hover{
+    opacity: 1;
+    
+}
+.firstbox:hover{  
+}
+.sub2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 23px;
+    padding-right: 100px;
+    background-color: var(--color);
+    position: absolute;
+    z-index: 30;
+    top: 320px;
+    box-sizing: border-box;
+    
+   
+}
+.work{
+    padding-right: 400px;
+    padding-bottom: 985px;
+    background-color:rgb(178, 175, 175);
+   float: left;
+   text-align: center;
+}
+.work2{
+    position: absolute;
+    left: 240px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color:rgb(30, 39, 51);
+    
+}
+
+#one{
+        position: relative;
+        float: right;
+        margin: 20px;
+        width: 450px;
+        margin-right: 0px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+    }
+    #one img{
+        width: 450px;
+        height: 190px;
+        opacity: .5;
+        transition: 1s;
+    }
+    #one img:hover{
+        opacity: 1;
+    }
+
+    .sub3{
+        position: absolute;
+        padding: 7px;
+        padding-right: 50px;
+        background-color: var(--color);
+        top: 100px;
+        font-size: 10px;
+        
+    }
+#two{
+    margin: 20px;
+
+    padding: 1px;
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#two img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#two img:hover{
+    opacity: 1;
+}
+#three{
+    position: relative;
+    float: right;
+    margin: 20px;
+    margin-right: 0px;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#three img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#three img:hover{
+    opacity: 1;
+}
+#four{
+    position: relative;
+    float: right;
+    margin: 20px;
+    width: 450px;
+    height: 190px;
+    padding: 4px;
+    background-color: var(--color);
+}
+#four img{
+    width: 450px;
+    height: 190px;
+    opacity: .5;
+    transition: 1s;
+}
+#four img:hover{
+    opacity: 1;
+}
+.vline2{
+        padding: 20px;
+        width: 46px;
+        height: 1005px;
+        padding-bottom: 39px;
+        padding-top: 0px;
+        position: absolute;
+        
+        left: 415px;
+        box-sizing: border-box;
+        border-radius: 20px;
+}
+.foot{
+    position: relative;
+    left: 150px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color:rgb(30, 39, 51);
+    background-color:rgb(178, 175, 175);
+    
+}
+
+.Con li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 60px;
+    position: relative;
+    float: right;
+    font-size: 22px;
+    top: -70px;
+    text-decoration-line: underline;
+
+}
+#me2{
+    color:rgb(178, 175, 175) ;
+    background-color: rgb(178, 175, 175);
+}
+.vline3{
+    padding: 20px;
+    width: 46px;
+    height: 180px;
+    padding-bottom: 39px;
+    padding-top: 0px;
+    position: absolute;
+    bottom: -1080px;
+    left: 415px;
+    box-sizing: border-box;
+    
+}
+  footer .Con a {
+    color: rgb(30, 39, 51);
+   
+  }
+  footer .Con a:hover {
+    color: rgb(81, 0, 95);
+    
+  }
+  
