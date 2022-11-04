@@ -5,7 +5,7 @@ This project was a little tricky, but what kept me motivated was the little chal
 
 ## Installation
 
-https://abduljabar5.github.io/Horiseon-Challenge-1/
+https://abduljabar5.github.io/Challenge-2/
 
 ## Usage
 
@@ -14,9 +14,12 @@ click on any of the opions on the top of the page to learn more about me.
 ![Alt text](images/portfolio.png)
 
 ## Credits
-google.com
+google.com <br>
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+<br>
+https://coding-boot-camp.github.io/full-stack/github/
+<br>
+professional-readme-guide
 
 
 ## License

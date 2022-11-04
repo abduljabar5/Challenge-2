@@ -167,7 +167,7 @@ span{
     opacity: 1;
     
 }
-
+/*changes to sub title */
 .sub2{
     font-size: 20px;
     font-family: sans-serif;
@@ -181,6 +181,8 @@ span{
     
    
 }
+/*changes to work */
+
 .work{
     padding-right: 400px;
     padding-bottom: 985px;
@@ -188,6 +190,8 @@ span{
    float: left;
    text-align: center;
 }
+/*changes to "work" */
+
 .work2{
     position: absolute;
     left: 240px;
@@ -196,6 +200,7 @@ span{
     color:rgb(30, 39, 51);
     
 }
+/*changes to img 2 */
 
 #one{
         position: relative;
@@ -216,6 +221,7 @@ span{
     #one img:hover{
         opacity: 1;
     }
+/*changes to img2,3,4,5 subtitle */
 
     .sub3{
         position: absolute;
@@ -226,6 +232,8 @@ span{
         font-size: 10px;
         
     }
+    /*changes to img3 */
+
 #two{
     margin: 20px;
 
@@ -246,6 +254,8 @@ span{
 #two img:hover{
     opacity: 1;
 }
+/*changes to img4 */
+
 #three{
     position: relative;
     float: right;
@@ -265,6 +275,8 @@ span{
 #three img:hover{
     opacity: 1;
 }
+/*changes to img5 */
+
 #four{
     position: relative;
     float: right;
